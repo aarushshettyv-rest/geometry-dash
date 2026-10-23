@@ -1,0 +1,35 @@
+{
+    "name": "Geometry Dash",
+    "description": "",
+    "dependencies": {
+        "device": "*",
+        "pxt-arcade-image-transform": "github:robo-technical-group/pxt-arcade-image-transform#v1.0.8",
+        "Color Fading": "github:jwunderl/pxt-color#v0.2.1",
+        "Timers": "github:microsoft/arcade-timers#v1.1.0",
+        "Musical-Images": "github:unsignedarduino/musical-images#07590a44032d9f620f01570e36933459f9d4c5fa"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md",
+        "assets.json",
+        "tilemap.g.jres",
+        "tilemap.g.ts",
+        "main.py"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "branch": "v1.8.20",
+        "tag": "v1.8.20",
+        "commits": "https://github.com/microsoft/pxt-arcade/commits/dd914bb70406150e2d737c738b763f1145833e1b",
+        "target": "4.1.27",
+        "pxt": "7.4.24",
+        "targetId": "arcade"
+    },
+    "supportedTargets": [
+        "arcade"
+    ],
+    "preferredEditor": "tsprj"
+}
